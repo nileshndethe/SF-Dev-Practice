@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{803e7389-9a6e-4c32-9994-a7e307957ed4}</ProjectGuid>
+    <Login>nileshndethe@sfdc.com.dev</Login>
+    <Password>JFDCdsmKSj9p3SJcCdMtZWRpbFq43B413QRkrCgigo6tjEZw0tlaKVT1gAoEpJt7</Password>
+    <SecurityToken>bQBwPr1/WJydXacbjQapXH4fmSA2D1thl3LdJ+UYnO+Ae3thVHKM+GMjyPZjejKAEyXr6rCIzTmnC1EhCaxxPA==</SecurityToken>
+    <Domain />
+    <Environment>0</Environment>
+    <ApexVersion>29.0</ApexVersion>
+    <Name>SFDC_DEV_Practices</Name>
+    <AssemblyName>SFDC_DEV_Practices</AssemblyName>
+    <RootNamespace>SFDC_DEV_Practices</RootNamespace>
+    <PackageVersion>0.20.12.4</PackageVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Folder Include="AnonymousApex" />
+    <Folder Include="Classes" />
+    <Folder Include="Objects" />
+    <Folder Include="Pages\" />
+    <Folder Include="RemoteSiteSettings" />
+    <Folder Include="Soql" />
+    <Folder Include="Triggers" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\AccountHandler.cls">
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="Classes\ContactAndLeadSearch.cls">
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="Classes\ContactSearch.cls">
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="Classes\FieldSet_CustCtrl.cls">
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="Classes\StringArrayTest.cls">
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="Classes\TestAccountDeletion.cls">
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="Classes\TestRestrictContactByName.cls">
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="Classes\TestVerifyDate.cls">
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="Classes\VerifyDate.cls">
+      <SubType>Class</SubType>
+    </Compile>
+    <Compile Include="Pages\FieldSet_CustCtrl_Demo.page">
+      <SubType>Page</SubType>
+    </Compile>
+    <Compile Include="Pages\FieldSet_StdCtrl_Demo.page">
+      <SubType>Page</SubType>
+    </Compile>
+    <Compile Include="Pages\PaginationDemo.page">
+      <SubType>Page</SubType>
+    </Compile>
+    <Compile Include="Triggers\AccountDeletion.trigger">
+      <SubType>Trigger</SubType>
+    </Compile>
+    <Compile Include="Triggers\RestrictContactByName.trigger">
+      <SubType>Trigger</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Objects\Account.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\AccountCleanInfo.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\AccountContactRole.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Activity.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Asset.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Campaign.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\CampaignMember.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Case.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\CaseContactRole.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Contact.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\ContactCleanInfo.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\ContentVersion.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Contract.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\ContractContactRole.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\DandBCompany.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\DuplicateRecordItem.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\DuplicateRecordSet.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Event.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\FeedItem.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\ForecastingCategoryMapping.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Idea.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Lead.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\LeadCleanInfo.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Macro.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\MacroAction.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\MacroInstruction.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Opportunity.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\OpportunityCompetitor.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\OpportunityContactRole.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\OpportunityLineItem.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Order.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\OrderItem.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\PartnerRole.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Pricebook2.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\PricebookEntry.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Product2.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Site.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\SocialPersona.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Solution.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\StreamingChannel.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\Task.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\User.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="Objects\UserProvisioningRequest.object">
+      <SubType>Object</SubType>
+    </Object>
+    <Object Include="RemoteSiteSettings\ApexDevNet.remoteSite">
+      <SubType>RemoteSiteSetting</SubType>
+    </Object>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Build.targets" />
+</Project>

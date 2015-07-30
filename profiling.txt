@@ -1,0 +1,24 @@
+﻿[12:26:29 PM] Project.SetBuildProject: Elapsed=0, Finished=12:26:29 PM
+[12:26:29 PM] Project.ProcessReferences: Elapsed=0, Finished=12:26:29 PM
+[12:26:29 PM] Project.ProcessFiles: Elapsed=315, Finished=12:26:29 PM
+[12:26:29 PM] ProjectNode.ProcessFiles.FirstLoop: Elapsed=313, Finished=12:26:29 PM
+[12:26:29 PM] ProjectNode.ProcessFiles.SecondLoop: Elapsed=0, Finished=12:26:29 PM
+[12:26:29 PM] Project.ProcessFolders: Elapsed=4, Finished=12:26:29 PM
+[12:26:29 PM] Project.LoadNonBuildInformation: Elapsed=21, Finished=12:26:29 PM
+[12:26:29 PM] Project.InitSccInfo: Elapsed=2, Finished=12:26:29 PM
+[12:26:29 PM] Project.RegisterSccProject: Elapsed=0, Finished=12:26:29 PM
+[12:26:29 PM] Project.LogIntoSalesforce: Elapsed=4490, Finished=12:26:34 PM
+[12:30:00 PM] Credentials verification: Elapsed=788, Finished=12:30:01 PM
+[12:31:13 PM] Downloading files: Elapsed=7701, Finished=12:31:21 PM
+[12:31:21 PM] Generating project file: Elapsed=119, Finished=12:31:21 PM
+[12:31:21 PM] Saving files: Elapsed=567, Finished=12:31:22 PM
+[12:31:28 PM] Project.SetBuildProject: Elapsed=0, Finished=12:31:28 PM
+[12:31:28 PM] Project.ProcessReferences: Elapsed=0, Finished=12:31:28 PM
+[12:31:28 PM] Project.ProcessFiles: Elapsed=116, Finished=12:31:28 PM
+[12:31:28 PM] ProjectNode.ProcessFiles.FirstLoop: Elapsed=116, Finished=12:31:28 PM
+[12:31:28 PM] ProjectNode.ProcessFiles.SecondLoop: Elapsed=0, Finished=12:31:28 PM
+[12:31:28 PM] Project.ProcessFolders: Elapsed=0, Finished=12:31:28 PM
+[12:31:28 PM] Project.LoadNonBuildInformation: Elapsed=0, Finished=12:31:28 PM
+[12:31:28 PM] Project.InitSccInfo: Elapsed=0, Finished=12:31:28 PM
+[12:31:28 PM] Project.RegisterSccProject: Elapsed=0, Finished=12:31:28 PM
+[12:31:28 PM] Project.LogIntoSalesforce: Elapsed=606, Finished=12:31:29 PM
