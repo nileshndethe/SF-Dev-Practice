@@ -36,6 +36,9 @@
     <Compile Include="Classes\ContactSearch.cls">
       <SubType>Class</SubType>
     </Compile>
+    <Compile Include="Classes\Ctrl_Pagination_Demo.cls">
+      <SubType>Class</SubType>
+    </Compile>
     <Compile Include="Classes\FieldSet_CustCtrl.cls">
       <SubType>Class</SubType>
     </Compile>
