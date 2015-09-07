@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestClassesCache>
+    <TestClasses>
+        <TestClass>
+            <Id>01p28000001TuemAAC</Id>
+            <Name>TestAccountDeletion</Name>
+        </TestClass>
+        <TestClass>
+            <Id>01p28000001TwmhAAC</Id>
+            <Name>TestRestrictContactByName</Name>
+        </TestClass>
+        <TestClass>
+            <Id>01p28000001TDfLAAW</Id>
+            <Name>TestVerifyDate</Name>
+        </TestClass>
+    </TestClasses>
+    <CacheDate>2015-08-14T11:24:20.6993621Z</CacheDate>
+    <IsLocal>false</IsLocal>
+</TestClassesCache>

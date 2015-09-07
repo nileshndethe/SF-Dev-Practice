@@ -4,8 +4,7 @@
                 <apex:repeat value="{!genericList}" var="gl">
                     {!gl.num}   <strong>{!gl.name}</strong><br/>            
                 </apex:repeat>                       
-            </apex:outputPanel>
-        </apex:outputPanel>
+            </apex:outputPanel>       
            <br/>
         <apex:outputPanel id="mainPanel">
             <apex:outputPanel rendered="{!AND(IF(paginater.isAll, false, true), IF(paginater.totalPage == 1, false, true))}">
@@ -25,6 +24,7 @@
                 <apex:outputText rendered="{!paginater.showNext}">
                     <apex:commandLink action="{!nextPage}" value="Next" rerender="mainPanel" />
                 </apex:outputText>
+            </apex:outputPanel>
             </apex:outputPanel>
     </apex:form>
 </apex:page>
